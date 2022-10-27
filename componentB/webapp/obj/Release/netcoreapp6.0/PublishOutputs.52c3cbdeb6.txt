@@ -1,0 +1,7 @@
+C:\Ajeet\Assignment\componentB\webapp\bin\Release\netcoreapp6.0\publish\webapp.exe
+C:\Ajeet\Assignment\componentB\webapp\bin\Release\netcoreapp6.0\publish\appsettings.Development.json
+C:\Ajeet\Assignment\componentB\webapp\bin\Release\netcoreapp6.0\publish\appsettings.json
+C:\Ajeet\Assignment\componentB\webapp\bin\Release\netcoreapp6.0\publish\webapp.dll
+C:\Ajeet\Assignment\componentB\webapp\bin\Release\netcoreapp6.0\publish\webapp.deps.json
+C:\Ajeet\Assignment\componentB\webapp\bin\Release\netcoreapp6.0\publish\webapp.runtimeconfig.json
+C:\Ajeet\Assignment\componentB\webapp\bin\Release\netcoreapp6.0\publish\webapp.pdb

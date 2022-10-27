@@ -1,0 +1,35 @@
+
+replicaCount: 1
+
+image:
+  repository: componentb:v1
+  pullPolicy: Never
+
+service:
+  type: NodePort
+  port: 80
+  name: componentb
+  targetport: 80
+  nodeport: 30012
+
+hpa:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 10
+  averageCpuUtilization: 50
+
+container:
+  name: componentb
+
+ingress:
+  enabled: true
+  annotations: {}
+  kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+  path: /b
+  hosts: []
+#    - podinfo.local
+  tls: []
+  #  - secretName: chart-example-tls
+  #    hosts:
+  #      - chart-example.local
